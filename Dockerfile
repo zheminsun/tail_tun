@@ -11,4 +11,6 @@ WORKDIR /app
 
 COPY start.sh /app/start.sh
 
+EXPOSE 55390
+
 CMD ["/app/start.sh"]
