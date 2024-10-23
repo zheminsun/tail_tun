@@ -10,6 +10,7 @@ RUN apt-get update && \
 WORKDIR /app 
 
 COPY start.sh /app/start.sh
+COPY cloudflare.py /app/cloudflare.py
 
 EXPOSE 55390
 
